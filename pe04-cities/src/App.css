@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+}
+
+.app {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #1f2937;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+nav {
+  margin-top: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #93c5fd;
+}
+
+main {
+  padding: 25px;
+}
+
+.card {
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.city-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.city-list li {
+  margin: 12px 0;
+}
+
+.city-list a {
+  color: #2563eb;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.city-list a:hover {
+  text-decoration: underline;
+}
+
+.details {
+  margin-top: 25px;
+  padding: 20px;
+  border-top: 2px solid #e5e7eb;
+  background-color: #f9fafb;
+  border-radius: 8px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 450px;
+}
+
+label {
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  margin-top: 6px;
+  padding: 10px;
+  border: 1px solid #9ca3af;
+  border-radius: 5px;
+}
+
+textarea {
+  min-height: 90px;
+}
+
+button {
+  margin-top: 18px;
+  padding: 12px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
